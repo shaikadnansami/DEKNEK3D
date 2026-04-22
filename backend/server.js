@@ -10,7 +10,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "*"
+  origin: "deknek-3-e4g5mvphl-shaikadnansamis-projects.vercel.app"
 }));
 app.use(express.json());
 
