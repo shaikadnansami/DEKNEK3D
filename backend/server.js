@@ -11,7 +11,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: "https://deknek-3-d.vercel.app/",
+  origin: "https://deknek-3-d.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
