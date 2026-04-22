@@ -9,8 +9,12 @@ connectDB();
 
 const app = express();
 
+import cors from "cors";
+
 app.use(cors({
-  origin: "deknek-3-e4g5mvphl-shaikadnansamis-projects.vercel.app"
+  origin: "https://deknek-3-e4g5mvphl-shaikadnansamis-projects.vercel.app",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
 }));
 app.use(express.json());
 
