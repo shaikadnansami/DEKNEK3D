@@ -9,11 +9,11 @@ function Dashboard() {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-         "https://deknk3d-backend.onrender.com/api/auth",
+         "https://deknk3d-backend.onrender.com/api/auth/dashboard",
         {
-          headers: {
-            Authorization: token,
-          },
+           headers: {
+      Authorization: localStorage.getItem("token"),
+    },
         }
       );
 
