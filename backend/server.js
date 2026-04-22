@@ -11,7 +11,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: "https://deknek-3-e4g5mvphl-shaikadnansamis-projects.vercel.app",
+  origin: "deknek-3-lnwb203h7-shaikadnansamis-projects.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
