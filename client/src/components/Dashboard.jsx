@@ -9,7 +9,7 @@ function Dashboard() {
       const token = localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/auth/dashboard",
+         "https://deknk3d-backend.onrender.com/api/auth",
         {
           headers: {
             Authorization: token,

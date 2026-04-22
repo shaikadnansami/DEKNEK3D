@@ -14,8 +14,7 @@ function Auth() {
     password: "",
   });
 
-  const API = "http://localhost:5000/api/auth";
-
+const API = "https://deknk3d-backend.onrender.com/api/auth";
   const handleChange = (e) => {
     setForm({
       ...form,
